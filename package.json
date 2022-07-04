@@ -6,8 +6,6 @@
   "scripts": {
     "dev": "vuepress dev docs --debug",
     "build": "vuepress build docs",
-    "docs:dev": "vuepress dev docs --debug",
-    "docs:build": "vuepress build docs",
     "editFm": "node utils/editFrontmatter.js"
   },
   "repository": {

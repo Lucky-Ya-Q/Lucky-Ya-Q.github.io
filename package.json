@@ -7,7 +7,8 @@
     "dev": "vuepress dev docs --debug",
     "build": "vuepress build docs",
     "docs:dev": "vuepress dev docs --debug",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "editFm": "node utils/editFrontmatter.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,6 @@
   },
   "homepage": "https://github.com/u2sb/vuepress-theme-vdoing-template#readme",
   "dependencies": {
-    "dayjs": "^1.9.7",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "^4.1.4",
     "markdown-it-footnote": "^3.0.3",
@@ -38,6 +38,9 @@
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smplayer": "^1.5.3",
     "vuepress-plugin-zooming": "^1.1.8",
-    "vuepress-theme-vdoing": "^1.12.3"
+    "vuepress-theme-vdoing": "^1.12.3",
+    "dayjs": "^1.9.7",
+    "yamljs": "^0.3.0",
+    "inquirer": "^7.1.0"
   }
 }

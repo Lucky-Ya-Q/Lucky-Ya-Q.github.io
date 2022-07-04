@@ -46,15 +46,15 @@ export default <VdoingThemeConfig>{
 
   author: {
     // 文章默认的作者信息，可在.md文件front matter中单独配置此信息 String | {name: String, link: String}
-    name: "MonologueChi", // 必需
-    link: "https://blog.xxwhite.com", // 可选的
+    name: "也曾为你像超人", // 必需
+    link: "https://shanyexia.top", // 可选的
   },
 
   // 博主信息，显示在首页侧边栏
   blogger: {
     avatar: "/avatar.jpg",
     name: "也曾为你像超人",
-    slogan: "一个想转前端的Java工程师",
+    slogan: "一个想转前端的 Java 工程师",
   },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)

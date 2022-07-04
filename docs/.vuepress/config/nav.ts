@@ -22,6 +22,15 @@ export default <Array<NavItem>>[
     ],
   },
   {
+    text: '博客',
+    link: '/archives/',
+    items: [
+      { text: '分类', link: '/categories/' },
+      { text: '标签', link: '/tags/' },
+      { text: '归档', link: '/archives/' },
+    ],
+  },
+  {
     text: 'Vue全家桶',
     items: [
       {text: 'Vue', link: 'https://staging-cn.vuejs.org'},

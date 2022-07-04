@@ -64,22 +64,17 @@ export default <VdoingThemeConfig>{
       {
         iconClass: "icon-QQ",
         title: "QQ",
-        link: "/assets/html/qq-groups.html",
-      },
-      {
-        iconClass: "icon-bilibili",
-        title: "哔哩哔哩",
-        link: "https://space.bilibili.com/28474682",
+        link: "/assets/html/qq.html",
       },
       {
         iconClass: "icon-github",
         title: "GitHub",
-        link: "https://github.com/u2sb/vuepress-theme-vdoing-template",
+        link: "https://github.com/Lucky-Ya-Q",
       },
       {
         iconClass: "icon-youjian",
-        title: "发邮件",
-        link: "mailto:xxwhite@foxmail.com",
+        title: "邮箱",
+        link: "mailto:1553592282@qq.com",
       },
     ],
   },

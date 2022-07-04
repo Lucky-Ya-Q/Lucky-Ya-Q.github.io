@@ -22,24 +22,23 @@ export default <Array<NavItem>>[
     ],
   },
   {
-    text: "友情链接",
+    text: 'Vue全家桶',
     items: [
+      {text: 'Vue', link: 'https://staging-cn.vuejs.org'},
+      {text: 'Vue Router', link: 'https://router.vuejs.org/zh/'},
+      {text: 'Vuex', link: 'https://vuex.vuejs.org/zh/'},
       {
-        text: "vuepress",
-        link: "https://vuepress.vuejs.org/",
+        text: '开发工具', items: [
+          {text: 'Vue CLI', link: 'https://cli.vuejs.org/zh/'},
+          {text: 'Devtools', link: 'https://devtools.vuejs.org/'}
+        ]
       },
       {
-        text: "vuepress-theme-vdoing",
-        link: "https://doc.xugaoyi.com/",
-      },
-      {
-        text: "U2SB",
-        link: "https://www.u2sb.com/",
-      },
-      {
-        text: "MonoLogueChi",
-        link: "https://blog.xxwhite.com/",
-      },
-    ],
+        text: '组件库', items: [
+          {text: 'Element Plus', link: 'https://element-plus.gitee.io/zh-CN/'},
+          {text: 'Ant Design Vue', link: 'https://next.antdv.com/docs/vue/getting-started-cn/'}
+        ]
+      }
+    ]
   },
 ];

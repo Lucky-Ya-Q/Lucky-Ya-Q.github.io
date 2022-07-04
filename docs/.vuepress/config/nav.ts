@@ -1,9 +1,9 @@
 // nav 配置, 即上方导航栏
 
-import { NavItem } from "vuepress/config";
+import {NavItem} from "vuepress/config";
 
 export default <Array<NavItem>>[
-  { text: "Home", link: "/" },
+  {text: "Home", link: "/"},
   {
     text: "配置",
     items: [
@@ -41,4 +41,5 @@ export default <Array<NavItem>>[
       }
     ]
   },
+  {text: '友情链接', link: '/friends'},
 ];

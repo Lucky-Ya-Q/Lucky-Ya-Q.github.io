@@ -7,7 +7,7 @@ export default <VdoingThemeConfig>{
   nav: nav, // 上方导航栏配置, 如需修改请修改 nav.ts
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: "/logo.png", // 导航栏Logo
-  // repo: "Lucky-Ya-Q/Lucky-Ya-Q.github.io", // 导航栏右侧生成Github链接
+  repo: "Lucky-Ya-Q/Lucky-Ya-Q.github.io", // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: "上次更新", // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
   docsDir: "docs", // 编辑的文件夹
@@ -32,9 +32,7 @@ export default <VdoingThemeConfig>{
   // ],
   // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
   // rightMenuBar: false, // 是否显示右侧文章大纲栏，默认true (屏宽小于1300px下无论如何都不显示)
-  // sidebarOpen: false, // 初始状态是否打开左侧边栏，默认true
-  // pageButton: false, // 是否显示快捷翻页按钮，默认true
-
+  pageButton: false, // 是否显示快捷翻页按钮，默认true
   sidebarOpen: true, // 初始状态是否打开侧边栏，默认true
   sidebar: { mode: "structuring", collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
 

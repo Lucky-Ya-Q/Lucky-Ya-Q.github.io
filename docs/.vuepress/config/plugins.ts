@@ -1,6 +1,7 @@
 // 插件配置, 详见 https://v1.vuepress.vuejs.org/zh/plugin/using-a-plugin.html
 
 import { UserPlugins } from "vuepress/config";
+// @ts-ignore
 import fs from "fs";
 import { resolve } from "path";
 import type { SmPlayerPluginOption } from "vuepress-plugin-smplayer/types";

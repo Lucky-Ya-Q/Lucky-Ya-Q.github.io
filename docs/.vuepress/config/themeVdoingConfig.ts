@@ -54,7 +54,7 @@ export default <VdoingThemeConfig>{
   blogger: {
     avatar: "/avatar.jpg",
     name: "也曾为你像超人",
-    slogan: "一个想转前端的Java开发工程师",
+    slogan: "一个想转前端的Java工程师",
   },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)

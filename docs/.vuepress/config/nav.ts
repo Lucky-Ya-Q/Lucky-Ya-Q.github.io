@@ -1,33 +1,24 @@
 // nav 配置, 即上方导航栏
 
-import {NavItem} from "vuepress/config";
+import {NavItem} from 'vuepress/config';
 
 export default <Array<NavItem>>[
-  {text: "Home", link: "/"},
-  {
-    text: "配置",
-    items: [
-      {
-        text: "项目配置",
-        link: "/start/",
-      },
-      {
-        text: "部署",
-        link: "/deploy/",
-      },
-      {
-        text: "更多参考",
-        link: "/more/",
-      },
-    ],
-  },
+  {text: 'Home', link: '/'},
   {
     text: '博客',
     link: '/archives/',
     items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
+      {text: '分类', link: '/categories/'},
+      {text: '标签', link: '/tags/'},
+      {text: '归档', link: '/archives/'},
+    ],
+  },
+  {
+    text: '文档',
+    items: [
+      {text: '项目配置', link: '/start/'},
+      {text: '部署', link: '/deploy/'},
+      {text: '更多参考', link: '/more/'},
     ],
   },
   {
@@ -50,5 +41,5 @@ export default <Array<NavItem>>[
       }
     ]
   },
-  { text: '友情链接', link: '/friends/' },
+  {text: '友情链接', link: '/friends/'},
 ];

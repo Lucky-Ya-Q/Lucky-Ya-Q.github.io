@@ -54,7 +54,7 @@ export default <UserPlugins>[
   ['@vuepress/last-updated',
     {
       transformer: timestamp => {
-        return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
+        return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
       },
     },
   ],

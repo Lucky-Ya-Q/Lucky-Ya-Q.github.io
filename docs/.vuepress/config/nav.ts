@@ -16,7 +16,7 @@ export default <Array<NavItem>>[
   {
     text: '文档',
     items: [
-      {text: '项目配置', link: '/start/'},
+      {text: 'RuoYi-Vue', link: '/RuoYi-Vue/'},
       {text: '部署', link: '/deploy/'},
       {text: '更多参考', link: '/more/'},
     ],

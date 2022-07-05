@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/u2sb/vuepress-theme-vdoing-template#readme",
   "dependencies": {
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "^4.1.4",
     "markdown-it-footnote": "^3.0.3",
@@ -30,6 +32,7 @@
     "markdown-it-sup": "^1.0.0",
     "markdown-it-task-lists": "^2.1.1",
     "vuepress": "^1.9.7",
+    "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-pangu": "^1.0.1",
@@ -37,8 +40,6 @@
     "vuepress-plugin-smplayer": "^1.5.3",
     "vuepress-plugin-zooming": "^1.1.8",
     "vuepress-theme-vdoing": "^1.12.3",
-    "dayjs": "^1.9.7",
-    "yamljs": "^0.3.0",
-    "inquirer": "^7.1.0"
+    "yamljs": "^0.3.0"
   }
 }

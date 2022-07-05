@@ -14,11 +14,11 @@ export default <Array<NavItem>>[
     ],
   },
   {
-    text: '文档',
+    text: '笔记',
+    link: '/note/',
     items: [
       {text: 'RuoYi-Vue', link: '/ruoyi-vue/'},
       {text: '《Vue.js设计与实现》', link: '/vue-3-book/'},
-      {text: '更多参考', link: '/more/'},
     ],
   },
   {

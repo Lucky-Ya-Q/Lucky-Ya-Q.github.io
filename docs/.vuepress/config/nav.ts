@@ -41,5 +41,6 @@ export default <Array<NavItem>>[
       }
     ]
   },
-  {text: '友情链接', link: '/friends/'},
-];
+  {text: '关于我', link: '/about/'},
+  {text: '友情链接', link: '/friends/'}
+]

@@ -25,11 +25,11 @@ export default <UserPlugins>[
           playbackRate: true,
           whitelist: ['*'],
           moreVideoAttr: {
-            preload: 'auto',
+            preload: 'auto'
           }
         }
       }
-    } as SmPlayerPluginOption,
+    } as SmPlayerPluginOption
   ],
   ['nuggets-style-copy',
     {
@@ -56,7 +56,7 @@ export default <UserPlugins>[
     {
       selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
       options: {
-        bgColor: 'rgba(0,0,0,0.6)',
+        bgColor: 'rgba(0,0,0,0.6)'
       }
     }
   ]

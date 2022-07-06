@@ -10,6 +10,8 @@ import dayjs from 'dayjs'
 
 // 配置插件，推荐使用 Babel 式, 根据自己插件情况修改插件配置
 export default <UserPlugins>[
+  ['pangu'],
+  ['fulltext-search'],
   ['sitemap',
     {
       hostname: `https://${fs.readFileSync(
@@ -30,14 +32,26 @@ export default <UserPlugins>[
       },
     } as SmPlayerPluginOption,
   ],
-  ['pangu'],
-  ['one-click-copy',
+  ['nuggets-style-copy',
     {
-      copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'],
-      copyMessage: '复制成功',
-      duration: 1000,
-      showInMobile: false,
-    },
+      copyText: "复制代码",
+      tip: {
+        content: "复制成功！",
+      },
+    }
+  ],
+  ['meting',
+    {
+      meting: {
+        auto: 'https://y.qq.com/n/ryqq/playlist/5194411437.html'
+      },
+      aplayer: {
+        lrcType: 3
+      },
+      mobile: {
+        cover: false
+      }
+    }
   ],
   ['zooming',
     {
@@ -47,12 +61,9 @@ export default <UserPlugins>[
       },
     },
   ],
-  ['fulltext-search'],
   ['@vuepress/last-updated',
     {
-      transformer: timestamp => {
-        return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
-      },
-    },
-  ],
-];
+      transformer: timestamp => dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
+    }
+  ]
+]

@@ -13,11 +13,10 @@ export default <UserPlugins>[
   ['pangu'],
   ['fulltext-search'],
   ['sitemap',
-    {
-      hostname: `https://${fs.readFileSync(
-        resolve(__dirname, '../public', 'CNAME')
-      )}`,
-    },
+    {hostname: `https://${fs.readFileSync(resolve(__dirname, '../public', 'CNAME'))}`}
+  ],
+  ['@vuepress/last-updated',
+    {transformer: timestamp => dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')}
   ],
   ['smplayer',
     {
@@ -27,17 +26,17 @@ export default <UserPlugins>[
           whitelist: ['*'],
           moreVideoAttr: {
             preload: 'auto',
-          },
-        },
-      },
+          }
+        }
+      }
     } as SmPlayerPluginOption,
   ],
   ['nuggets-style-copy',
     {
-      copyText: "复制代码",
+      copyText: '复制代码',
       tip: {
-        content: "复制成功！",
-      },
+        content: '复制成功！'
+      }
     }
   ],
   ['meting',
@@ -58,12 +57,7 @@ export default <UserPlugins>[
       selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
       options: {
         bgColor: 'rgba(0,0,0,0.6)',
-      },
-    },
-  ],
-  ['@vuepress/last-updated',
-    {
-      transformer: timestamp => dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
+      }
     }
   ]
 ]

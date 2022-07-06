@@ -79,7 +79,9 @@ export default <VdoingThemeConfig>{
   footer: {
     // 页脚信息, 请根据实际情况修改, 删掉不需要的部分
     createYear: 2020, // 博客创建年份
-    copyrightInfo: `<br>
+    copyrightInfo: `
+      <a href='https://shanyexia.top' target='_blank'>山野下</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
+      <br>
       <a href='http://beian.miit.gov.cn' target='_blank'>冀ICP备2021028150号-1</a>
     `, // 博客版权信息，支持a标签
   },

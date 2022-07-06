@@ -38,7 +38,7 @@
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smplayer": "^1.5.3",
     "vuepress-plugin-zooming": "^1.1.8",
-    "vuepress-theme-vdoing": "^1.12.3",
+    "vuepress-theme-vdoing": "^1.12.4",
     "vuepress-plugin-meting": "0.3.1",
     "yamljs": "^0.3.0"
   }

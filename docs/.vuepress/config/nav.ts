@@ -1,6 +1,6 @@
 // nav 配置, 即上方导航栏
 
-import {NavItem} from 'vuepress/config';
+import {NavItem} from 'vuepress/config'
 
 export default <Array<NavItem>>[
   {text: 'Home', link: '/'},
@@ -10,16 +10,16 @@ export default <Array<NavItem>>[
     items: [
       {text: '分类', link: '/categories/'},
       {text: '标签', link: '/tags/'},
-      {text: '归档', link: '/archives/'},
-    ],
+      {text: '归档', link: '/archives/'}
+    ]
   },
   {
     text: '笔记',
     link: '/note/',
     items: [
       {text: 'RuoYi-Vue', link: '/ruoyi-vue/'},
-      {text: '《Vue.js设计与实现》', link: '/vue-3-book/'},
-    ],
+      {text: '《Vue.js设计与实现》', link: '/vue-3-book/'}
+    ]
   },
   {
     text: 'Vue全家桶',

@@ -39,20 +39,20 @@ export default <VdoingThemeConfig>{
   updateBar: {
     // 最近更新栏
     showToArticle: false, // 显示到文章页底部，默认true
-    moreArticle: '/archives', // “更多文章”跳转的页面，默认'/archives'
+    moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
   },
 
   author: {
     // 文章默认的作者信息，可在.md文件front matter中单独配置此信息 String | {name: String, link: String}
     name: '也曾为你像超人', // 必需
-    // link: 'https://shanyexia.top', // 可选的
+    // link: 'https://shanyexia.top' // 可选的
   },
 
   // 博主信息，显示在首页侧边栏
   blogger: {
     avatar: 'https://cdn.jsdelivr.net/gh/Lucky-Ya-Q/image-store/blog/avatar.jpg',
     name: '也曾为你像超人',
-    slogan: '一个想转前端的 Java 工程师',
+    slogan: '一个想转前端的 Java 工程师'
   },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -62,19 +62,19 @@ export default <VdoingThemeConfig>{
       {
         iconClass: 'icon-QQ',
         title: 'QQ',
-        link: '/assets/html/qq.html',
+        link: '/assets/html/qq.html'
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/Lucky-Ya-Q',
+        link: 'https://github.com/Lucky-Ya-Q'
       },
       {
         iconClass: 'icon-youjian',
         title: '邮箱',
-        link: 'mailto:1553592282@qq.com',
-      },
-    ],
+        link: 'mailto:1553592282@qq.com'
+      }
+    ]
   },
   footer: {
     // 页脚信息, 请根据实际情况修改, 删掉不需要的部分
@@ -83,6 +83,6 @@ export default <VdoingThemeConfig>{
       <a href='https://shanyexia.top' target='_blank'>山野下</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
       <br>
       <a href='http://beian.miit.gov.cn' target='_blank'>冀ICP备2021028150号-1</a>
-    `, // 博客版权信息，支持a标签
-  },
-};
+    ` // 博客版权信息，支持a标签
+  }
+}

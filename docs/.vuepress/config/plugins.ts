@@ -1,5 +1,5 @@
 // 插件配置, 详见 https://v1.vuepress.vuejs.org/zh/plugin/using-a-plugin.html
-
+const loveMe = require('../plugins/love-me')
 import {UserPlugins} from 'vuepress/config'
 // @ts-ignore
 import fs from 'fs'
@@ -10,6 +10,12 @@ import dayjs from 'dayjs'
 
 // 配置插件，推荐使用 Babel 式, 根据自己插件情况修改插件配置
 export default <UserPlugins>[
+  [loveMe,
+    {
+      color: '#11a8cd',
+      excludeClassName: 'theme-vdoing-content'
+    }
+  ],
   // ['pangu'], // 自动在文章中英文与汉字之间添加空格
   ['fulltext-search'],
   ['sitemap',

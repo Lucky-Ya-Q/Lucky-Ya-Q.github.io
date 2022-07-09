@@ -3,7 +3,6 @@
 import {defineConfig4CustomTheme} from 'vuepress/config'
 import {VdoingThemeConfig} from 'vuepress-theme-vdoing/types'
 import themeConfig from './config/themeVdoingConfig'
-import markdown from './config/markdown'
 import plugins from './config/plugins'
 import head from './config/head'
 
@@ -16,6 +15,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   head: head, //全局头部信息配置, 如需修改请修改 config/head.ts
   theme: 'vdoing', //主题, 无需修改
   themeConfig, //主题配置, 如需修改请修改 config/themeVdoingConfig.ts
-  markdown, //markdown 相关配置, 如需修改请修改 config/markdown.ts
-  plugins //插件配置, 如需修改请修改 config/plugins.ts
+  markdown: {
+    lineNumbers: true,
+    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'] // 提取标题到侧边栏的级别，默认['h2', 'h3']
+  },
+  plugins, //插件配置, 如需修改请修改 config/plugins.ts
+  extraWatchFiles: [
+    '.vuepress/config.ts',
+    '.vuepress/config/htmlModules.ts'
+  ] // 监听文件变化并重新构建
 })

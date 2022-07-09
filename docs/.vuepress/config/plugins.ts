@@ -10,7 +10,7 @@ import dayjs from 'dayjs'
 
 // 配置插件，推荐使用 Babel 式, 根据自己插件情况修改插件配置
 export default <UserPlugins>[
-  ['pangu'],
+  // ['pangu'], // 自动在文章中英文与汉字之间添加空格
   ['fulltext-search'],
   ['sitemap',
     {hostname: `https://${fs.readFileSync(resolve(__dirname, '../public', 'CNAME'))}`}

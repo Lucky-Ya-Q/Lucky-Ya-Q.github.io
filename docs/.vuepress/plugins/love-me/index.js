@@ -1,7 +1,8 @@
 import {resolve} from 'path'
-const LoveMyPlugin = (options={}) => ({
-  define () {
-    const COLOR = options.color || "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
+
+const LoveMyPlugin = (options = {}) => ({
+  define() {
+    const COLOR = options.color || "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
     const EXCLUDECLASS = options.excludeClassName || ''
     return {COLOR, EXCLUDECLASS}
   },

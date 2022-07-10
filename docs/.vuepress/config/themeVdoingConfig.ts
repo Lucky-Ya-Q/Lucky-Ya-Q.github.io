@@ -70,9 +70,9 @@ export default <VdoingThemeConfig>{
         link: 'https://github.com/Lucky-Ya-Q'
       },
       {
-        iconClass: 'icon-youjian',
-        title: '邮箱',
-        link: 'mailto:1553592282@qq.com'
+        iconClass: 'icon-rss',
+        title: 'RSS',
+        link: '/sitemap.xml'
       }
     ]
   },

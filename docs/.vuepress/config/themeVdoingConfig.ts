@@ -6,7 +6,7 @@ import {VdoingThemeConfig} from 'vuepress-theme-vdoing/types';
 export default <VdoingThemeConfig>{
   nav: nav, // 上方导航栏配置, 如需修改请修改 nav.ts
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: 'https://cdn.jsdelivr.net/gh/Lucky-Ya-Q/image-store/blog/logo.jpg', // 导航栏Logo
+  logo: '/logo.jpg', // 导航栏Logo
   repo: 'Lucky-Ya-Q/Lucky-Ya-Q.github.io', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
@@ -50,7 +50,7 @@ export default <VdoingThemeConfig>{
 
   // 博主信息，显示在首页侧边栏
   blogger: {
-    avatar: 'https://cdn.jsdelivr.net/gh/Lucky-Ya-Q/image-store/blog/avatar.jpg',
+    avatar: 'https://cdn.staticaly.com/gh/Lucky-Ya-Q/image-store@main/blog/avatar.4miok5vfr2c.webp',
     name: '也曾为你像超人',
     slogan: '一个想转前端的 Java 工程师'
   },

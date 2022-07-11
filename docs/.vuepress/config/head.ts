@@ -6,10 +6,6 @@ export default <HeadTags>[
     {
       name: 'viewport',
       content: 'width=device-width,initial-scale=1,user-scalable=no'
-    },
-    {
-      name: 'baidu-site-verification',
-      content: 'code-qjErG7wZYK'
     }
   ]
 ]

@@ -16,7 +16,7 @@ export default <UserPlugins>[
       excludeClassName: 'theme-vdoing-content'
     }
   ],
-  ['pangu'], // 自动在文章中英文与汉字之间添加空格
+  // ['pangu'], // 自动在文章中英文与汉字之间添加空格
   ['fulltext-search'],
   ['sitemap',
     {hostname: `https://${fs.readFileSync(resolve(__dirname, '../public', 'CNAME'))}`}

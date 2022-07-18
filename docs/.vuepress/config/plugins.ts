@@ -6,7 +6,7 @@ import fs from 'fs'
 import {resolve} from 'path'
 import type {SmPlayerPluginOption} from 'vuepress-plugin-smplayer/types'
 // @ts-ignore
-import dayjs from 'dayjs'
+import moment from 'moment-timezone'
 
 // 配置插件，推荐使用 Babel 式, 根据自己插件情况修改插件配置
 export default <UserPlugins>[
@@ -24,7 +24,6 @@ export default <UserPlugins>[
   ['@vuepress/last-updated',
     {
       transformer: timestamp => {
-        const moment = require('moment-timezone')
         let date = moment(timestamp).tz('Asia/Shanghai');
         return date.format('YYYY-MM-DD HH:mm:ss')
       }

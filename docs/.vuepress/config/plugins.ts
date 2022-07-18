@@ -22,7 +22,13 @@ export default <UserPlugins>[
     {hostname: `https://${fs.readFileSync(resolve(__dirname, '../public', 'CNAME'))}`}
   ],
   ['@vuepress/last-updated',
-    {transformer: timestamp => dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')}
+    {
+      transformer: timestamp => {
+        const moment = require('moment-timezone')
+        let date = moment(timestamp).tz('Asia/Shanghai');
+        return date.format('YYYY-MM-DD HH:mm:ss')
+      }
+    }
   ],
   ['smplayer',
     {

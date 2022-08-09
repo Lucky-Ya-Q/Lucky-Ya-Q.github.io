@@ -24,7 +24,7 @@ export default <Array<NavItem>>[
   {
     text: 'Vue全家桶',
     items: [
-      {text: 'Vue', link: 'https://staging-cn.vuejs.org'},
+      {text: 'Vue', link: 'https://cn.vuejs.org'},
       {text: 'Vue Router', link: 'https://router.vuejs.org/zh/'},
       {text: 'Vuex', link: 'https://vuex.vuejs.org/zh/'},
       {

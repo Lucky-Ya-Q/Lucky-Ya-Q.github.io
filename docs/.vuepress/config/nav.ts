@@ -17,8 +17,7 @@ export default <Array<NavItem>>[
     text: '笔记',
     link: '/note/',
     items: [
-      {text: 'RuoYi-Vue', link: '/ruoyi-vue/'},
-      {text: '《Vue.js设计与实现》', link: '/vue-3-book/'}
+      {text: 'RuoYi-Vue', link: '/ruoyi-vue/'}
     ]
   },
   {

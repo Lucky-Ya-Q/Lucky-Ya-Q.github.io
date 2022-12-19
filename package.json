@@ -20,7 +20,7 @@
   "homepage": "https://github.com/u2sb/vuepress-theme-vdoing-template#readme",
   "dependencies": {
     "inquirer": "^7.1.0",
-    "moment-timezone": "^0.5.34",
+    "moment-timezone": "^0.5.40",
     "vuepress": "^1.9.7",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-meting": "0.3.1",

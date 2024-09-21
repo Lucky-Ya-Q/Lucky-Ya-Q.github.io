@@ -50,7 +50,7 @@ export default <VdoingThemeConfig>{
 
   // 博主信息，显示在首页侧边栏
   blogger: {
-    avatar: 'https://cdn.staticaly.com/gh/Lucky-Ya-Q/image-store@main/blog/avatar.4miok5vfr2c.webp',
+    avatar: 'https://s21.ax1x.com/2024/09/21/pAMNCRO.jpg',
     name: '也曾为你像超人',
     slogan: '一个想转前端的 Java 工程师'
   },

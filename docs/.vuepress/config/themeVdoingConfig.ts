@@ -52,7 +52,7 @@ export default <VdoingThemeConfig>{
   blogger: {
     avatar: 'https://s21.ax1x.com/2024/09/21/pAMNCRO.jpg',
     name: '也曾为你像超人',
-    slogan: '一个想转前端的 Java 工程师'
+    slogan: '全干工程师'
   },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)

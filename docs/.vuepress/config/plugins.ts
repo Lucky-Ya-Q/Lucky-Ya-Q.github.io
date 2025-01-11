@@ -29,7 +29,7 @@ export default <UserPlugins>[
     }
   ],
 
-  ['vuepress-plugin-code-copy', true],
+  ['vuepress-plugin-code-copy'],
   ['zooming',
     {
       selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片

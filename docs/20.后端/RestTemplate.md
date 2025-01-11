@@ -3,7 +3,7 @@ title: RestTemplate
 date: 2025-01-11 19:07:43
 permalink: /pages/fb1561/
 categories:
-  - Java
+  - 后端
 tags:
   - 
 ---

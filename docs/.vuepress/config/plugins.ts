@@ -29,27 +29,7 @@ export default <UserPlugins>[
     }
   ],
 
-  ['nuggets-style-copy',
-    {
-      copyText: '复制代码',
-      tip: {
-        content: '复制成功！'
-      }
-    }
-  ],
-  ['meting',
-    {
-      meting: {
-        auto: 'https://y.qq.com/n/ryqq/playlist/5194411437.html'
-      },
-      aplayer: {
-        lrcType: 3
-      },
-      mobile: {
-        cover: false
-      }
-    }
-  ],
+  ['vuepress-plugin-code-copy', true],
   ['zooming',
     {
       selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片

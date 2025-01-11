@@ -4,7 +4,6 @@ import {UserPlugins} from 'vuepress/config'
 // @ts-ignore
 import fs from 'fs'
 import {resolve} from 'path'
-import type {SmPlayerPluginOption} from 'vuepress-plugin-smplayer/types'
 // @ts-ignore
 import moment from 'moment-timezone'
 
@@ -29,19 +28,7 @@ export default <UserPlugins>[
       }
     }
   ],
-  ['smplayer',
-    {
-      artplayer: {
-        src: {
-          playbackRate: true,
-          whitelist: ['*'],
-          moreVideoAttr: {
-            preload: 'auto'
-          }
-        }
-      }
-    } as SmPlayerPluginOption
-  ],
+
   ['nuggets-style-copy',
     {
       copyText: '复制代码',

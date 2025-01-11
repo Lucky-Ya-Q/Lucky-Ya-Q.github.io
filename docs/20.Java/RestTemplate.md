@@ -8,6 +8,8 @@ tags:
   - 
 ---
 
+
+
 ```java
 @Bean
 public RestTemplate restTemplate(RestTemplateBuilder restTemplateBuilder) {

@@ -26,17 +26,16 @@ export default <Array<NavItem>>[
     items: [
       {text: 'Vue', link: 'https://cn.vuejs.org'},
       {text: 'Vue Router', link: 'https://router.vuejs.org/zh/'},
-      {text: 'Vuex', link: 'https://vuex.vuejs.org/zh/'},
+      {text: 'Pinia', link: 'https://pinia.vuejs.org/zh/'},
       {
         text: '开发工具', items: [
-          {text: 'Vue CLI', link: 'https://cli.vuejs.org/zh/'},
-          {text: 'Devtools', link: 'https://devtools.vuejs.org/'}
+          {text: 'Vite', link: 'https://cn.vite.dev/'}
         ]
       },
       {
         text: '组件库', items: [
-          {text: 'Element Plus', link: 'https://element-plus.gitee.io/zh-CN/'},
-          {text: 'Ant Design Vue', link: 'https://next.antdv.com/docs/vue/getting-started-cn/'}
+          {text: 'Element Plus', link: 'https://element-plus.org/zh-CN/'},
+          {text: 'Ant Design Vue', link: 'https://www.antdv.com/components/overview-cn'}
         ]
       }
     ]

@@ -17,7 +17,8 @@ export default <Array<NavItem>>[
     text: '笔记',
     link: '/note/',
     items: [
-      {text: 'RuoYi-Vue', link: '/ruoyi-vue/'}
+      {text: 'RuoYi-Vue', link: '/ruoyi-vue/'},
+      {text: 'RuoYi-App', link: '/ruoyi-app/'}
     ]
   },
   {

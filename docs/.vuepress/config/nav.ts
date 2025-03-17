@@ -35,6 +35,7 @@ export default <Array<NavItem>>[
       {
         text: '组件库', items: [
           {text: 'Element Plus', link: 'https://element-plus.org/zh-CN/'},
+          {text: 'Vant', link: 'https://vant-ui.github.io/vant/#/zh-CN'},
           {text: 'Ant Design Vue', link: 'https://www.antdv.com/components/overview-cn'}
         ]
       }

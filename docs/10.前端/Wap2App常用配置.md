@@ -85,3 +85,12 @@ onBackPress() {
 }
 ```
 
+
+
+## 强制横屏
+
+```js
+onLoad() {
+    plus.screen.lockOrientation('landscape-primary');
+}
+```

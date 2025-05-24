@@ -43,9 +43,7 @@ onLoad() {
 
 ## 隐藏小白条
 
-由于小白条也属于状态栏，隐藏后底部会留下小白条的位置。
-
-所以高度需要再加16像素 `height: height - statusbar + 16`
+隐藏后底部会留下小白条的位置，所以高度需要再加16像素 `height: height - statusbar + 16`
 
 ```js
 onLoad() {

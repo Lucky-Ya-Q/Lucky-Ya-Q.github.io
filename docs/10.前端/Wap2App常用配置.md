@@ -94,8 +94,6 @@ onBackPress() {
 }
 ```
 
-
-
 ## 强制横屏
 
 ```js
@@ -104,3 +102,10 @@ onLoad() {
 }
 ```
 
+## 默认横屏
+
+```json
+"app-plus" : {
+    "screenOrientation" : [ "landscape-primary", "landscape-secondary" ], // 允许横屏
+}
+```

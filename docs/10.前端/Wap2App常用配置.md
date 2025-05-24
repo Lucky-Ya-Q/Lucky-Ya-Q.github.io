@@ -41,7 +41,21 @@ onLoad() {
 }
 ```
 
+## 隐藏小白条
 
+由于小白条也属于状态栏，隐藏后底部会留下小白条的位置，不知道为什么设置为透明背景后高度自动适配
+
+```js
+onLoad() {
+    // 隐藏小白条
+    plus.navigator.hideSystemNavigation();
+    // 不知道为什么设置为透明背景后高度自动适配
+    uni.setNavigationBarColor({
+        frontColor: '#000000', // 状态栏文字颜色（白/黑）
+        backgroundColor: '#00000000', // 透明背景
+    });
+}
+```
 
 ## 适配返回健
 
@@ -94,3 +108,4 @@ onLoad() {
     plus.screen.lockOrientation('landscape-primary');
 }
 ```
+

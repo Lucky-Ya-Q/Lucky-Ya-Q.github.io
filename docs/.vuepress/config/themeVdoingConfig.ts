@@ -44,14 +44,14 @@ export default <VdoingThemeConfig>{
 
   author: {
     // 文章默认的作者信息，可在.md文件front matter中单独配置此信息 String | {name: String, link: String}
-    name: '也曾为你像超人', // 必需
+    name: 'Lyb刘同学', // 必需
     // link: 'https://shanyexia.top' // 可选的
   },
 
   // 博主信息，显示在首页侧边栏
   blogger: {
-    avatar: 'https://s21.ax1x.com/2024/09/21/pAMNCRO.jpg',
-    name: '也曾为你像超人',
+    avatar: 'https://q2.qlogo.cn/headimg_dl?dst_uin=1553592282&spec=5',
+    name: 'Lyb刘同学',
     slogan: '全干工程师'
   },
 

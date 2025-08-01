@@ -1,8 +1,11 @@
 ---
 title: MQTT
-date: 2025-03-16 20:53:41
-permalink: /pages/4cf503/
-article: false
+date: 2025-08-08 20:23:29
+permalink: /pages/eb75bf/
+categories:
+  - 后端
+tags:
+  - 
 ---
 
 
